@@ -1,0 +1,11 @@
+{
+  "name": "tdd-money-example-javascript",
+  "version": "0.0.1",
+  "description": "Shift test code of \"Test Driven Development\" with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "toyamarinyon",
+  "license": "MIT"
+}
