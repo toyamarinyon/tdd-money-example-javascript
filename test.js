@@ -1,11 +1,9 @@
 import test from 'ava';
+import 'babel-register';
+import Dollar from './dollar';
 
-test('foo', t => {
-	t.pass();
-});
-
-test('bar', async t => {
-	const bar = Promise.resolve('bar');
-
-	t.is(await bar, 'bar');
+test('multiplication', (t) => {
+  const five = new Dollar(5);
+  five.times(2);
+  t.is(five.amount, 10);
 });
